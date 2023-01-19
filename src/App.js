@@ -11,6 +11,9 @@ export default function App() {
           What is ReactJs?
           <button onClick={() => setOpen(!open)}>{open ? "-" : "+"}</button>
         </p>
+        <div className={open ? "open" : "close"}>
+          <p> ReactJs is a javascript library unlike other Vue and Angular</p>
+        </div>
       </div>
     </div>
   );

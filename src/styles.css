@@ -5,3 +5,9 @@
 .accordion {
   border: 1px solid red;
 }
+.open {
+  border: 1px solid blue;
+}
+.close {
+  display: none;
+}
